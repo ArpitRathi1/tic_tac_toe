@@ -80,3 +80,7 @@
 .btn.active{    
     opacity: 1;
 }
+
+.win{
+    background-color: rgba(0,255,0,0.3);
+}
