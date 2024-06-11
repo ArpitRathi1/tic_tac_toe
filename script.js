@@ -28,3 +28,7 @@ function initGame(){
         // removing green color by intialise box with css properties again.
         box.classList=`box box${index+1}`;
     });
+
+    newGameBtn.classList.remove("active");
+    gameInfo.innerText=`Current Player - ${currentPlayer}`;
+}
