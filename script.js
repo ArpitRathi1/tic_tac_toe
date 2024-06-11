@@ -17,3 +17,7 @@ const winningPositions=[
 ];
 
 // let's create a function to initialise game.
+function initGame(){
+    currentPlayer= "X";
+    gameGrid=["","","","","","","","",""];
+    // Empty UI.
