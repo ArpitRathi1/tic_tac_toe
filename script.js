@@ -21,3 +21,10 @@ function initGame(){
     currentPlayer= "X";
     gameGrid=["","","","","","","","",""];
     // Empty UI.
+    boxes.forEach((box,index)=>{
+        box.innerText="";
+        // Enable pointer events
+        box.style.pointerEvents="all";
+        // removing green color by intialise box with css properties again.
+        box.classList=`box box${index+1}`;
+    });
