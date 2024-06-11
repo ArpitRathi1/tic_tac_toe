@@ -15,3 +15,5 @@ const winningPositions=[
     [0,4,8],
     [2,4,6]
 ];
+
+// let's create a function to initialise game.
