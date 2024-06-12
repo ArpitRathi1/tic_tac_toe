@@ -46,3 +46,11 @@ function swapTurn(){
 function checkGameover(){
     let answer="";
     // All 3 boxed should not be empty and have same value.
+    winningPositions.forEach((position)=>{
+        if ((gameGrid[position[0]] !== "" || gameGrid[position[1]] !== "" || gameGrid[position[2]] !== "") && (gameGrid[position[0]]===gameGrid[position[1]]) && (gameGrid[position[1]]===gameGrid[position[2]])){
+            // check if winner is X.
+            if (gameGrid[position[0]]==="X"){
+                answer="X";
+            }else{
+                answer="0";
+            }
