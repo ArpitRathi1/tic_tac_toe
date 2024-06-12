@@ -42,3 +42,7 @@ function swapTurn(){
     }
     gameInfo.innerText=`Current Player - ${currentPlayer}`;
 }
+
+function checkGameover(){
+    let answer="";
+    // All 3 boxed should not be empty and have same value.
