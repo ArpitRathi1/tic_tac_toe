@@ -33,3 +33,7 @@ function initGame(){
     gameInfo.innerText=`Current Player - ${currentPlayer}`;
 }
 initGame();
+
+function swapTurn(){
+    if (currentPlayer==="X"){
+        currentPlayer="0";
