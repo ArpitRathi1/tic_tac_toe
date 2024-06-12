@@ -58,3 +58,9 @@ function checkGameover(){
             boxes.forEach((box)=>{
                 box.style.pointerEvents="none";
             })
+            // now we know X/0 is a winner
+            boxes[position[0]].classList.add("win");
+            boxes[position[1]].classList.add("win");
+            boxes[position[2]].classList.add("win");
+        }
+    })
