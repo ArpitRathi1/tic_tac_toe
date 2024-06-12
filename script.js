@@ -54,3 +54,7 @@ function checkGameover(){
             }else{
                 answer="0";
             }
+            // Disable pointer events
+            boxes.forEach((box)=>{
+                box.style.pointerEvents="none";
+            })
