@@ -37,3 +37,8 @@ initGame();
 function swapTurn(){
     if (currentPlayer==="X"){
         currentPlayer="0";
+        }else{
+        currentPlayer="X";
+    }
+    gameInfo.innerText=`Current Player - ${currentPlayer}`;
+}
