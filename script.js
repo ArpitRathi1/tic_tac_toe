@@ -76,3 +76,9 @@ function checkGameover(){
             fillcount++;
         }
     });
+    // if board is filled game is tie.
+    if (fillcount===9 && answer===""){
+        gameInfo.innerText="Game tied";
+        newGameBtn.classList.add("active");
+    }
+}
