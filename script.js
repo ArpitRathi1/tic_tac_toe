@@ -64,3 +64,8 @@ function checkGameover(){
             boxes[position[2]].classList.add("win");
         }
     })
+    // it means we have a winner.
+    if ( answer!=="" ){
+        gameInfo.innerText=`Winner player - ${answer}`;
+        newGameBtn.classList.add("active");
+    }
