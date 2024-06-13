@@ -82,3 +82,8 @@ function checkGameover(){
         newGameBtn.classList.add("active");
     }
 }
+
+function handleClick(index){
+    if (gameGrid[index]===""){
+        boxes[index].innerText=currentPlayer;
+        gameGrid[index]=currentPlayer;
