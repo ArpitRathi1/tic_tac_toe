@@ -69,3 +69,10 @@ function checkGameover(){
         gameInfo.innerText=`Winner player - ${answer}`;
         newGameBtn.classList.add("active");
     }
+    // let's check whether there is tie.
+    let fillcount=0;
+    gameGrid.forEach((box)=>{
+        if(box!==""){
+            fillcount++;
+        }
+    });
