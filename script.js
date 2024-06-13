@@ -87,3 +87,7 @@ function handleClick(index){
     if (gameGrid[index]===""){
         boxes[index].innerText=currentPlayer;
         gameGrid[index]=currentPlayer;
+        swapTurn();
+        checkGameover();
+    }
+}
