@@ -91,3 +91,5 @@ function handleClick(index){
         checkGameover();
     }
 }
+
+boxes.forEach((box,index)=>
