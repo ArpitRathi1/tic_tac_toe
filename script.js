@@ -97,3 +97,5 @@ boxes.forEach((box,index)=>{
         handleClick(index);
     })
 })
+
+newGameBtn.addEventListener("click",initGame)
