@@ -36,3 +36,22 @@ To get a local copy up and running follow these simple steps:
    ```sh
    cd tic_tac_toe
    ```
+   
+## Usage
+
+To start the game, open the `index.html` file in your preferred web browser:
+
+```sh
+open index.html
+```
+
+## Gameplay
+
+1. Open the game in your web browser.
+2. The game starts with Player X.
+3. Players take turns clicking on an empty cell in the 3x3 grid to place their mark (X or O).
+4. The game will automatically check for a win or a draw after each move.
+5. When the game ends, a message will display the result (either one player wins or it's a draw).
+6. To play again, click on new game button.
+
+
