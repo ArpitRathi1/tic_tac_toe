@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/tic_tac_toe.git
+   git clone https://github.com/ArpitRathi1/tic_tac_toe.git
    ```
 2. Navigate to the project directory:
    ```sh
